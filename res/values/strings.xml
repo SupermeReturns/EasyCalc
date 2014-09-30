@@ -4,5 +4,5 @@
     <string name="about_dialog_ok">OK</string>
     <string name="authorInfoTitle">Author Info</string>
    <string name="errorInfo">Wrong Formula!</string>
-    <string name="authorInfoMain">This is an Easy android calculator!\nAuthor:SunDongliang\n@SunYat-SunUniversity\nEmail:im123im123@163.com\n"This app is free and opensourced.See github:\nhttps://github.com/SupermeReturns/TestCocos</string>
+    <string name="authorInfoMain">This is an Easy android calculator!\nAuthor:SunDongliang\n@SunYat-SunUniversity\nEmail:im123im123@163.com\n"This app is free and opensourced. See github:\nhttps://github.com/SupermeReturns/EasyCalc</string>
 </resources>
