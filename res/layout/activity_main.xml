@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dip"
+    android:background="#88323260"
+    >
+
+    <!-- 第一个TextView用来显示用户的输入，也就是方程-->
+    <TextView
+      android:id="@+id/input_TextView"
+      android:text="Welcome to The \nEasy Calc!"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:gravity="right"
+      android:textSize="30dip"
+      android:paddingBottom="5dip"
+      android:background="#88323232"
+      android:maxLines="3" 
+      android:minLines="3" 
+      />
+
+    <!--  第二个TextView涌来显示计算的结果-->
+    <TextView
+      android:id="@+id/result_TextView"      
+      android:text="Enjoy yourself!"
+      android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:gravity="right"
+      android:textSize="30dip"
+      android:paddingTop="5dip"
+      android:background="#88323290"
+      android:maxLines="1"
+      />
+    
+    <!--  TableLayout用来组织5×4个按键的排布-->
+    <TableLayout    
+      android:id="@+id/table1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="20dip"
+      android:stretchColumns="*">
+
+        <TableRow android:paddingBottom="10dip" >
+
+            <ImageButton
+              android:id="@+id/button_clear"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/ad_button_clear"
+              />
+            <ImageButton
+              android:id="@+id/button_left_brace"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_left_brace"
+              />              
+            <ImageButton
+              android:id="@+id/button_right_brace"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_right_brace"
+              />
+            <ImageButton
+              android:id="@+id/button_delete"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_delete"
+              />
+        </TableRow>
+        <TableRow android:paddingBottom="10dip">
+            <ImageButton
+              android:id="@+id/button_digit_7"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_digit_7"
+              />
+            <ImageButton
+              android:id="@+id/button_digit_8"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_digit_8"
+              />
+            <ImageButton
+              android:id="@+id/button_digit_9"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_digit_9"
+              />              
+            <ImageButton
+              android:id="@+id/button_divide"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_divide"
+              />
+        </TableRow>
+        <TableRow android:paddingBottom="10dip">
+            <ImageButton
+              android:id="@+id/button_digit_4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_digit_4"
+              />
+            <ImageButton
+              android:id="@+id/button_digit_5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_digit_5"
+              />
+            <ImageButton
+              android:id="@+id/button_digit_6"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_digit_6"
+              />              
+            <ImageButton
+              android:id="@+id/button_multiply"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_multiply"
+              />
+        </TableRow>
+        <TableRow android:paddingBottom="10dip">
+            <ImageButton
+              android:id="@+id/button_digit_1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_digit_1"
+              />
+            <ImageButton
+              android:id="@+id/button_digit_2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_digit_2"
+              />
+            <ImageButton
+              android:id="@+id/button_digit_3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_digit_3"
+              />              
+            <ImageButton
+              android:id="@+id/button_subtract"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_subtract"
+              />
+        </TableRow>
+        <TableRow>
+            <ImageButton
+              android:id="@+id/button_digit_0"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_digit_0"
+              />
+            <ImageButton
+              android:id="@+id/button_point"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_point"
+              />
+            <ImageButton
+              android:id="@+id/button_equal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_equal"
+              />              
+            <ImageButton
+              android:id="@+id/button_plus"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/ad_button_plus"
+              />
+        </TableRow>        
+    </TableLayout>
+</LinearLayout>
